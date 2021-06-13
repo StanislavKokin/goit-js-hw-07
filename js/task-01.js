@@ -1,3 +1,8 @@
+// Напиши скрипт, который выполнит следующие операции.
+
+//1) Посчитает и выведет в консоль количество категорий в ul#categories, то есть
+// элементов li.item. Получится 'В списке 3 категории.'.
+
 const items = document.querySelectorAll('.item');
 
 function composeMessage(){
